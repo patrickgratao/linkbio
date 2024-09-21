@@ -25,6 +25,14 @@ module.exports = {
 					700: "#4F5A6E",
 					800: "#030B1A",
 				},
+				social: {
+					facebook: "#117cee",
+					x: "#000",
+					instagram: "#E1306C",
+					linkedin: "#0A66C2",
+					youtube: "#FF2532",
+					tiktok: "#000",
+				},
 			},
 
 			width: {

@@ -1,8 +1,18 @@
+import {
+	FaFacebookF,
+	FaInstagram,
+	FaLinkedinIn,
+	FaTiktok,
+	FaYoutube,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import { ActionButton } from "components/Buttons/ActionButton";
+import { SocialButton } from "components/Buttons/SocialButton";
 
 export const HomePage = () => {
 	return (
-		<section className="w-full lg:w-tabletApp xl:w-desktopApp bg-white h-auto shadow-md mx-auto rounded-3xl relative">
+		<section className="w-full md:w-tabletApp xl:w-desktopApp bg-white h-auto shadow-md mx-auto rounded-3xl relative">
 			<div className="h-[140px] bg-[url('/public/cover.jpg')] bg-cover bg-center w-full rounded-t-3xl "></div>
 			<div className="w-full px-4 pb-14">
 				<section className="mt-[-88px] flex flex-col justify-center items-center gap-4">
@@ -20,6 +30,34 @@ export const HomePage = () => {
 							desenvolvedor front-end comprometido em criar
 							produtos incríveis.
 						</span>
+
+						<section className="mt-4 flex gap-3 ">
+							<SocialButton
+								className="bg-social-facebook"
+								socialIcon={<FaFacebookF />}
+							/>
+							<SocialButton
+								className="bg-social-x"
+								socialIcon={<FaXTwitter />}
+							/>
+							<SocialButton
+								className="bg-social-instagram"
+								socialIcon={<FaInstagram />}
+							/>
+							<SocialButton
+								className="bg-social-linkedin"
+								socialIcon={<FaLinkedinIn />}
+							/>
+							<SocialButton
+								className="bg-social-youtube"
+								socialIcon={<FaYoutube />}
+							/>
+
+							<SocialButton
+								className="bg-social-tiktok"
+								socialIcon={<FaTiktok />}
+							/>
+						</section>
 					</div>
 				</section>
 

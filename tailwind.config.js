@@ -36,6 +36,10 @@ module.exports = withMT({
 					800: "#030B1A",
 				},
 			},
+
+			width: {
+				app: "610px",
+			},
 		},
 	},
 	plugins: [require("daisyui")],

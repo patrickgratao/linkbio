@@ -1,6 +1,6 @@
 {
-  "name": "boilerplate-vite-tailwind",
-  "description": "Este é um boilerplate com Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3 and biome",
+  "name": "@patrickgratao/biolink",
+  "description": "Bio links to social networks",
   "version": "0.1.0",
   "private": true,
   "type": "module",

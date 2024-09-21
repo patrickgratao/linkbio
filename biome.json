@@ -4,7 +4,9 @@
     "enabled": true
   },
   "formatter": {
-    "indentStyle": "space",
+    "enabled": true,
+    "indentStyle": "tab",
+    "indentWidth": 4,
     "lineWidth": 80
   },
   "linter": {
@@ -19,7 +21,8 @@
         "useJsxKeyInIterable": "error",
         "useHookAtTopLevel": "off",
         "useExhaustiveDependencies": "off",
-        "noUnreachable": "warn"
+        "noUnreachable": "warn",
+        "noVoidElementsWithChildren": "off"
       },
       "suspicious": {
         "noConsoleLog": "warn",
@@ -38,5 +41,8 @@
         "noStaticOnlyClass": "off"
       }
     }
+  },
+  "files": {
+    "ignore": ["node_modules"]
   }
 }

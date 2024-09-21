@@ -4,7 +4,7 @@ type AppLayout = {
 
 export const AppLayout = ({ children }: AppLayout) => {
 	return (
-		<main className="min-h-screen font-default bg-neutral-200 py-12 my-auto">
+		<main className="min-h-screen font-default bg-neutral-200 px-3 pt-3 lg:py-12 my-auto">
 			{children}
 			<footer className="my-6 flex justify-center">
 				Criado com 💗 por

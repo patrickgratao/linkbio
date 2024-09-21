@@ -2,9 +2,9 @@ import { ActionButton } from "components/Buttons/ActionButton";
 
 export const HomePage = () => {
 	return (
-		<section className="w-mobileApp lg:w-tabletApp xl:w-desktopApp bg-white h-auto shadow-md mx-auto rounded-3xl relative">
+		<section className="w-full lg:w-tabletApp xl:w-desktopApp bg-white h-auto shadow-md mx-auto rounded-3xl relative">
 			<div className="h-[140px] bg-[url('/public/cover.jpg')] bg-cover bg-center w-full rounded-t-3xl "></div>
-			<div className="w-full px-28 pb-14">
+			<div className="w-full px-4 pb-14">
 				<section className="mt-[-88px] flex flex-col justify-center items-center gap-4">
 					<img
 						src="https://avatars.githubusercontent.com/u/7607620?v=4"

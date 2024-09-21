@@ -1,9 +1,11 @@
+import { ActionButton } from "components/Buttons/ActionButton";
+
 export const HomePage = () => {
 	return (
-		<section className="w-app bg-white h-screen border border-black shadow-md mx-auto rounded-3xl relative">
+		<section className="w-app bg-white h-auto shadow-md mx-auto rounded-3xl relative">
 			<div className="h-[140px] bg-[url('/public/cover.jpg')] bg-cover bg-center w-full rounded-t-3xl "></div>
 
-			<div className="w-full px-28">
+			<div className="w-full px-28 pb-14">
 				<section className="mt-[-88px] flex flex-col justify-center items-center gap-4">
 					<img
 						src="https://avatars.githubusercontent.com/u/7607620?v=4"
@@ -20,6 +22,22 @@ export const HomePage = () => {
 							produtos incríveis.
 						</span>
 					</div>
+				</section>
+
+				<section className="mt-7 flex flex-col gap-3">
+					<ActionButton emoji={"👨🏼‍💻"}>
+						Visit my porfolio
+					</ActionButton>
+
+					<ActionButton emoji="📝">Read my articles</ActionButton>
+
+					<ActionButton emoji="🎙️">Listen my podcast</ActionButton>
+
+					<ActionButton emoji="🛍️">Visit my store</ActionButton>
+
+					<ActionButton emoji="🎥">
+						Subscribe to my channel
+					</ActionButton>
 				</section>
 			</div>
 		</section>

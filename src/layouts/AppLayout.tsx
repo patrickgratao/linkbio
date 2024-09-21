@@ -4,6 +4,8 @@ type AppLayout = {
 
 export const AppLayout = ({ children }: AppLayout) => {
 	return (
-		<main className="font-default bg-neutral-200 py-12">{children}</main>
+		<main className="min-h-screen font-default bg-neutral-200 py-12">
+			{children}
+		</main>
 	);
 };

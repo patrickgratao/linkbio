@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center">
-    Boilerplate de Front-end
+    Link in Bio com Tailwind e React
 </h1>
 <br/>
 <p align="center">
@@ -16,13 +16,11 @@
 
 # Visão Geral
 
-Este boilerplate é escrito em Vite e serve para iniciar outros projetos de front-end.
+Projeto criado para o Join Community 2024.
 
-O CRA (Create React App) foi descontinuado pela equipe do React por estar desatualizado, baixa performance, muito restrito a novas funcionalidades como SSR e testes. 
+- [Protótipo no Figma](https://www.figma.com/design/VcuQK0pTmzsgMJjfYFDJE5/Link-In-bio?node-id=1-5&t=O4JARphyhPBjJEVs-1)
 
-Como alternativa dada pela equipe do React temos o Vite.
-
-Escolhemos o [Vite](https://vitejs.dev/) porque é muito semelhante à estrutura que utilizávamos anteriormente, porém possui um build em dev e prod muito rápido e possibilida maior cobertura de testes.
+![Link in Bio](./.github/lkb.jpg)
 
 ## Tecnologias utilizadas
 

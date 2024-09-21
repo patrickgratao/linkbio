@@ -6,12 +6,12 @@ import GlobalStyles from "./styles/GlobalStyles";
 import { theme } from "./styles/theme";
 
 export const App = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyles />
-      <Router>
-        <AppRoutes />
-      </Router>
-    </ThemeProvider>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<GlobalStyles />
+			<Router>
+				<AppRoutes />
+			</Router>
+		</ThemeProvider>
+	);
 };

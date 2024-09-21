@@ -6,7 +6,7 @@ export const AppLayout = ({ children }: AppLayout) => {
 	return (
 		<main className="min-h-screen font-default bg-neutral-200 px-3 pt-3 lg:py-12 my-auto">
 			{children}
-			<footer className="my-6 flex justify-center">
+			<footer className="py-6 flex justify-center">
 				Criado com 💗 por
 				<a
 					href="https://www.linkedin.com/in/patrickgratao/"

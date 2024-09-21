@@ -3,10 +3,6 @@ module.exports = {
 
 	theme: {
 		extend: {
-			borderRadius: {
-				"0.5xl": "10px",
-			},
-
 			fontFamily: {
 				default: "'DM Sans', sans-serif",
 			},
@@ -32,7 +28,9 @@ module.exports = {
 			},
 
 			width: {
-				app: "610px",
+				mobileApp: "610px",
+				tabletApp: "800px",
+				desktopApp: "1200px",
 			},
 		},
 	},
